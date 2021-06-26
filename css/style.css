@@ -1,0 +1,119 @@
+.fondo{
+    background-image: url(/img/marmolnegro.jpg);
+    width: 100%;
+    height: 100%;
+   /*  background-repeat: no-repeat; */
+    /* background-size: cover; */
+    
+    
+}
+.fondoTexto{
+    background-color: rgb(247, 188, 198, 0.95);
+    
+}
+
+#fondoTexto{
+    background-color: rgb(247, 188, 198, 0.95);
+    
+}
+
+#menu{
+   /*  background-color: rgb(247, 188, 198, 0.7); */
+    font-size: 25px; 
+    font-weight: 700;
+    color: white;
+   
+}
+#textoNav{
+   
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+#tituloPrincipal{
+    background-color: rgb(212, 92, 166);
+    font-size: 10px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    
+}
+
+#margin{
+    margin: 50px;
+}
+.borderCarousel{
+    border: 8px solid rgb(204, 50, 218);
+    border-radius: 7px;
+}
+.marginCarousel{
+    padding: 20px;
+}
+.carousel-inner img {
+    width:100%;
+    height: 100%;
+    max-height: 700px;
+}
+
+.carousel-inner{
+ height: 100%
+}
+
+
+@media only screen and (max-width:576px){
+
+  #marginCel{
+      margin-top: 20px;
+  }
+  
+ #iconoCel{
+    height:30px; 
+    width:30px;
+  }
+
+  #centrarItems{
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      
+      
+     }
+
+}
+
+@media only screen and (max-width:768px){
+
+    #marginCel{
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width:576px){
+
+    #iconoCel{
+        height:40px; 
+        width:40px;
+      }
+
+}
+
+@media only screen and (min-width:768px){
+
+    #iconoCel{
+        height:50px; 
+        width:50px;
+      }
+
+}
+
+@media only screen and (min-width:992px){
+
+    #iconoCel{
+        height:50px; 
+        width:50px;
+      }
+
+}
