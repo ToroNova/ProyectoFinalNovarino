@@ -1,0 +1,102 @@
+.borderCarousel {
+  border: 8px solid #cc32da;
+  border-radius: 7px; }
+
+.marginCarousel {
+  padding: 10px; }
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  max-height: 500px; }
+
+.carousel-inner {
+  height: 100%; }
+
+.fondo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/fondomadera.jpg);
+  width: 100%;
+  height: 100%;
+  /*  background-repeat: no-repeat; */
+  /* background-size: cover; */ }
+  .fondo #menu {
+    background-color: #e7b6be;
+    font-size: 35px;
+    font-weight: 500; }
+    .fondo #menu #textoNav {
+      color: black;
+      text-shadow: 2px 2px 0px #1a0505, 5px 4px 0px rgba(0, 0, 0, 0.15), 13px 9px 3px rgba(59, 34, 26, 0.44);
+      font-size: 30px;
+      /* border-right: 2px solid black; */
+      padding: 20px; }
+  .fondo #tituloPrincipal, .fondo .titulos {
+    color: #88035e;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Crafty Girls", cursive;
+    text-shadow: 2px 2px 0px #1a0505, 5px 4px 0px rgba(0, 0, 0, 0.15), 13px 9px 3px rgba(59, 34, 26, 0.44); }
+  .fondo .parrafos {
+    font-family: "Chilanka", cursive; }
+  .fondo .titulos {
+    font-weight: 900;
+    text-align: left; }
+  .fondo .footer {
+    background-color: #e7b6be; }
+
+.parrafo1 {
+  color: red;
+  font-family: "Chilanka";
+  background-color: white;
+  font-size: 20px; }
+
+.parrafo2 {
+  color: blue;
+  font-family: "sans-serif";
+  background-color: lightblue;
+  font-size: 20px; }
+
+.parrafo3 {
+  color: violet;
+  font-family: "Crafty Girls";
+  background-color: lightgreen;
+  font-size: 20px; }
+
+.parrafo4 {
+  color: black;
+  font-family: "Lucida Sans";
+  background-color: yellow;
+  font-size: 20px; }
+
+@media only screen and (max-width: 576px) {
+  #marginCel {
+    margin-top: 20px; }
+  #iconoCel {
+    height: 30px;
+    width: 30px; }
+  #centrarItems {
+    align-items: center;
+    justify-content: center;
+    justify-items: center; }
+  .fondo #tituloPrincipal, .fondo .titulos {
+    font-size: 25px; } }
+
+@media only screen and (min-width: 576px) {
+  #iconoCel {
+    height: 40px;
+    width: 40px; }
+  .fondo #tituloPrincipal, .fondo .titulos {
+    font-size: 35px; } }
+
+@media only screen and (min-width: 768px) {
+  #iconoCel {
+    height: 50px;
+    width: 50px; }
+  .fondo #tituloPrincipal, .fondo .titulos {
+    font-size: 45px; } }
+
+@media only screen and (min-width: 992px) {
+  #iconoCel {
+    height: 50px;
+    width: 50px; }
+  .fondo #tituloPrincipal, .fondo .titulos {
+    font-size: 55px; } }

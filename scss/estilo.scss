@@ -1,0 +1,164 @@
+
+
+@import "tipografia.scss";
+@import "carousel.scss";
+
+
+
+ .fondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../img/fondomadera.jpg);
+    width: 100%;
+    height: 100%;
+    /*  background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+    #menu{
+        background-color: $colorFondo;
+        font-size: 35px; 
+        font-weight: 500;
+
+        #textoNav{
+            color: $colorGeneral;
+            text-shadow: $sombraTitulos;
+            font-size: 30px;
+            /* border-right: 2px solid black; */
+            padding: 20px;
+               
+        }
+
+   }
+
+   #tituloPrincipal{
+    color: $colorTitulo;
+    text-align: center;
+    font-size: $tamanioTitulos;
+    font-family: $fontTitulo; 
+    text-shadow: $sombraTitulos;   
+}
+
+
+ .parrafos{
+     font-family: $fontPrincipal;
+
+ }
+
+
+ .titulos{
+    @extend #tituloPrincipal;
+     font-weight: 900;
+     text-align: left;
+       
+ }
+
+
+ .footer{
+
+    background-color: $colorFondo;
+   
+}
+        
+}
+
+@mixin parrafos ($color, $typo, $fondo, $tamanio){
+
+ color: $color;
+ font-family: $typo;
+ background-color: $fondo;
+ font-size: $tamanio;
+
+}
+
+.parrafo1{
+    @include parrafos (red, 'Chilanka' , white,20px)
+}
+.parrafo2{
+    @include parrafos (blue, 'sans-serif', lightblue, 20px)
+}
+.parrafo3{
+    @include parrafos (violet, 'Crafty Girls', lightgreen, 20px)
+}
+.parrafo4{
+    @include parrafos  (black, 'Lucida Sans', yellow, 20px)
+}
+
+
+
+
+
+@media only screen and (max-width:576px){
+
+    #marginCel{
+        margin-top: 20px;
+    }
+    
+   #iconoCel{
+      height:30px; 
+      width:30px;
+    }
+  
+    #centrarItems{
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        
+        
+       }
+  
+   .fondo{
+    #tituloPrincipal{
+        font-size: 25px;
+    }   
+   }
+       
+  
+  }
+  
+  @media only screen and (min-width:576px){
+  
+      #iconoCel{
+          height:40px; 
+          width:40px;
+          
+        }
+
+        .fondo{
+            #tituloPrincipal{
+                font-size: 35px;
+            }   
+           } 
+       
+       
+  }
+
+  
+  @media only screen and (min-width:768px){
+  
+      #iconoCel{
+          height:50px; 
+          width:50px;
+        }
+  
+        .fondo{
+            #tituloPrincipal{
+                font-size: 45px;
+            }   
+           }
+      
+   
+           
+    }
+  
+  
+  @media only screen and (min-width:992px){
+  
+      #iconoCel{
+          height:50px; 
+          width:50px;
+        }
+     .fondo{
+        #tituloPrincipal{
+         font-size: 55px;
+        }   
+        }
+  }
+  

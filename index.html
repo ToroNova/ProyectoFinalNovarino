@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Crafty+Girls&display=swap" rel="stylesheet">
+
+    
     <title>SOLCHI BEAUTY</title>
 </head>
 <body class="fondo">
   <header>
     <div class="container-fluid">
        
-    <img src="img/portada.jpg" alt="" width="100%" height= >
+    <img src="img/imagenPorada2.jpg" alt="" width="100%">
        
     </div>
     <!-- NAV -->
@@ -23,26 +30,26 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
               </button> 
-               <div class="collapse navbar-collapse" id="navbarNav" style="justify-content:space-evenly" >
-                <ul class="navbar-nav" >
-                  <li class="nav-item">
-                    <a class="nav-link " href="/index.html" id="textoNav">Home</a>
+               <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: space-around;" >
+                <ul class="navbar-nav">
+                  <li class="nav-item" >
+                    <a class="nav-link" href="index.html" id="textoNav">Home</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link" href="pages/quiensoy.html" id="textoNav">Quien Soy</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/quiensoy.html"id="textoNav">Quien Soy</a>
+                    <a class="nav-link" href="pages/turnos.html" id="textoNav" >Turnos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/turnos.html"id="textoNav" >Turnos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/shop.html" id="textoNav" >Shop</a>
+                    <a class="nav-link" href="pages/shop.html" id="textoNav" >Shop</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
+                    <a class="nav-link dropdown-toggle" id="textoNav" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contacto</a>
                     <ul class="dropdown-menu fondoTexto" aria-labelledby="navbarDropdown" id="fondoTexto">
-                      <li class="fondoTexto"><a class="dropdown-item " href="/contacto.html">Formulario de contacto</a></li>
-                      <li class="fondoTexto"><hr class="dropdown-divider"></li>
-                      <li class="fondoTexto"><a class="dropdown-item " href="https://wa.me/5491161398784" target="_blank">Whatsapp</a></li>
+                      <li><a class="dropdown-item " href="pages/contacto.html" >Formulario de contacto</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item " href="https://wa.me/5491161398784" target="_blank">Whatsapp</a></li>
                     </ul>
                   </li>
 
@@ -53,6 +60,7 @@
     </div>    
     <!-- FIN NAV -->  
   </header>
+ 
   <main>
     <div class="container-fluid">
       <!-- Carousel -->
@@ -84,74 +92,66 @@
       </div>
       <!-- Fin Carousel -->
 
-      <!-- FOTOS ANTES -->
-<!--       <div class="row" id="margin">
-        <div class="col-lg-6 col-md-8 col-sm-12 col-12"> <img src="img/maquillajerosa.jpg" class="rounded mx-auto d-block"   alt="" width="100%"></div> 
-        <div class="col-lg-6 col-md-4 col-sm-12 col-12 fondoTexto" id="marginCel"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ratione, quas aliquam asperiores a iste nulla architecto ex incidunt dolores aut! Nihil, earum sit veniam laboriosam perspiciatis doloribus recusandae accusantium Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae commodi sit similique deleniti debitis, voluptatum totam maxime aperiam. Doloribus laudantium nostrum natus optio sint similique dolorum tempora fuga nulla ducimus.</p></div>
+      <div class="containter-fluid">
+        <p id="tituloPrincipal" >TITULO PRINCIPAL</p>
       </div>
+      
 
-      <div class="row" id="margin">
-        <div class="col-lg-6 col-md-8 col-sm-12 col-12" > <img src="img/maquillajerosa.jpg" class="rounded mx-auto d-block" alt="" width="100%" ></div>
-        <div class="col-lg-6 col-md-4 col-sm-12 col-12 fondoTexto" id="marginCel"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi hic reprehenderit illo labore commodi impedit sint? Illo molestias, esse reprehenderit commodi, fugit itaque ad iste, quaerat sint sed et eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sed expedita dolorum magni impedit, itaque molestias velit! Deleniti, hic laudantium! Voluptas ea nemo ipsam amet enim nesciunt molestiae eos assumenda!</p>
-      </div>
-    </div> -->
-    <!-- FOTOS ANTES -->
-
-    <!-- GRID CARDS -->
+      <!-- GRID CARDS -->
     <div class="row row-cols-1 row-cols-md-2 g-4 p-4">
       <div class="col">
-        <div class="card">
+        <div class="card text-white bg-dark mb-4">
           <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title titulos">Card title</h5>
+            <p class="card-text parrafo1">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-white bg-dark mb-4">
           <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title titulos">Card title</h5>
+            <p class="card-text parrafo2">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-white bg-dark mb-4">
           <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title titulos">Card title</h5>
+            <p class="card-text parrafo3">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card text-white bg-dark mb-4">
           <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title titulos">Card title</h5>
+            <p class="card-text parrafo4">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
     </div>
     <!-- FIN GRID CARDS -->
 
-    <footer class="container-fluid fondoTexto">
+    <footer class="container-fluid footer">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-lg-3">
+          <div class="col-12 col-lg-3 col-md-3 col-sm-2">
             <a href="https://wa.me/5491161398784" target="_blank"><img id="iconoCel" src="img/whatsapp.png" alt="" ></a>  
-            <a href="https://wa.me/5491161398784" target="_blank"><button type="button" class="btn btn-outline-success"> <span id="texto_celular">WhatsApp</span> </button></a>
+            <a href="https://wa.me/5491161398784" target="_blank"><button type="button" class="btn btn-outline-success"> <span>WhatsApp</span> </button></a>
           </div>
-          <div class="col-12 col-lg-3">
+          <div class="col-12 col-lg-3 col-md-3 col-sm-2">
             <a href="https://www.instagram.com/las_marias_healthy_beauty/" target="_blank"><img id="iconoCel" src="img/instagram_PNG.png" alt=""></a>  
-            <a href="https://www.instagram.com/las_marias_healthy_beauty/" target="_blank"><button type="button" class="btn btn-outline-danger"> <span id="texto_celular">Instagram</span> </button></a>
+            <a href="https://www.instagram.com/las_marias_healthy_beauty/" target="_blank"><button type="button" class="btn btn-outline-danger"> <span>Instagram</span> </button></a>
           </div>
-          <div class="col-12 col-lg-3">
+          <div class="col-12 col-lg-3 col-md-3 col-sm-2">
             <a href="https://" target="_blank"><img id="iconoCel" src="img/facebook_logos_PNG.png" alt="" ></a>  
-            <a href="https://" target="_blank"><button type="button" class="btn btn-outline-primary"> <span id="texto_celular">Facebook</span> </button></a>     
+            <a href="https://" target="_blank"><button type="button" class="btn btn-outline-primary"> <span>Facebook</span> </button></a>     
           </div>
  
         </div>
