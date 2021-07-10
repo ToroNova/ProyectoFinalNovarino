@@ -19,9 +19,7 @@
 
         #textoNav{
             color: $colorGeneral;
-            text-shadow: $sombraTitulos;
             font-size: 30px;
-            /* border-right: 2px solid black; */
             padding: 20px;
                
         }
@@ -69,23 +67,23 @@
 }
 
 .parrafo1{
-    @include parrafos (red, 'Chilanka' , white,20px)
+    @include parrafos (white, 'Chilanka', 0 ,20px)
 }
 .parrafo2{
-    @include parrafos (blue, 'sans-serif', lightblue, 20px)
+    @include parrafos (white, 'Chilanka', 0 , 20px)
 }
 .parrafo3{
-    @include parrafos (violet, 'Crafty Girls', lightgreen, 20px)
+    @include parrafos (white, 'Chilanka', 0, 20px)
 }
 .parrafo4{
-    @include parrafos  (black, 'Lucida Sans', yellow, 20px)
+    @include parrafos  (white, 'Chilanka', 0 , 20px)
 }
 
 
 
 
 
-@media only screen and (max-width:576px){
+  @media only screen and (max-width:576px){
 
     #marginCel{
         margin-top: 20px;
@@ -107,7 +105,13 @@
    .fondo{
     #tituloPrincipal{
         font-size: 25px;
-    }   
+    } 
+    #menu{
+        #textoNav{
+            font-size: 15px;
+            padding: 5px;
+        }
+    }  
    }
        
   
@@ -124,7 +128,13 @@
         .fondo{
             #tituloPrincipal{
                 font-size: 35px;
-            }   
+            }
+            #menu{
+                #textoNav{
+                    font-size: 20px;
+                    padding: 8px;
+                }
+            }     
            } 
        
        
@@ -157,7 +167,7 @@
         }
      .fondo{
         #tituloPrincipal{
-         font-size: 55px;
+         font-size: 60px;
         }   
         }
   }
