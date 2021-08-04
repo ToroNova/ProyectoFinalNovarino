@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Crafty+Girls&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="index.js"></script>
@@ -24,12 +25,12 @@
   <header>
     <div class="container-fluid banner">
        
-    <img src="img/imagenPorada.jpg" alt="" width="100%">
+    <img src="img/portadasinfondo.png" alt="" width="100%">
        
     </div>
     <!-- NAV -->
-    <div class="container-fluid" id="menu">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid" >
+        <nav class="navbar navbar-expand-lg navbar-dark" id="menu">
             <div class="container-fluid" >
               <a class="navbar-brand" id="textoNav" href="index.html">INICIO</a> <!-- brand -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,13 +78,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/slide1.jpg" class="d-block w-75 fotoCarousel"  alt="...">
+            <img src="img/slide1.png" class="d-block w-75 fotoCarousel"  alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/slide2.jpg" class="d-block w-75 fotoCarousel" alt="...">
+            <img src="img/slide2.png" class="d-block w-75 fotoCarousel" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="img/slide4.jpg" class="d-block w-75 fotoCarousel" alt="...">
+            <img src="img/slide3.png" class="d-block w-75 fotoCarousel" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -97,53 +98,55 @@
       </div>
       <!-- Fin Carousel -->
 
-      <div class="containter-fluid">
-        <p id="tituloPrincipal" >Las Marias - Healthy Beauty</p>
-      </div>
+    
       
 
       <!-- GRID CARDS -->
-    <div class="row row-cols-1 row-cols-md-2 g-4 p-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
       <div class="col">
-        <div class="card text-white bg-dark mb-4 card1">
-          <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
+        <a href="pages/quiensoy.html">
+        <div class="card text-white bg-dark mb-3">
+          <img src="img/quien.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title titulos">Quienes somos</h5>
+            <h5 class="card-title" id="titulos">QUIENES SOMOS</h5>
             <p class="card-text parrafo1">Te contamos un poco sobre nuestro emprendimiento a partir de nuestras experiencias.</p> 
-          </div>
+          </div></a>
         </div>
       </div>
       <div class="col">
-        <div class="card text-white bg-dark mb-4 card2">
-          <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
+        <a href="pages/vidasaludable.html">
+        <div class="card text-white bg-dark mb-3">
+          <img src="img/sano.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title titulos">Vida Saludable</h5>
-            <p class="card-text parrafo2"> Actividad fiscia - Comidas sanas - Bienestar  emocional. Planificaciones y seguimientos. </p>
-          </div>
+            <h5 class="card-title" id="titulos">VIDA SALUDABLE</h5>
+            <p class="card-text parrafo2"> Actividad fisica - Comidas sanas - Bienestar  emocional. Planificaciones y seguimientos. </p>
+          </div></a>
         </div>
       </div>
       <div class="col">
-        <div class="card text-white bg-dark mb-4 card3">
-          <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
+        <a href="pages/tratamientos.html">
+        <div class="card text-white bg-dark mb-3">
+          <img src="img/tratamientos.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title titulos">Tratamientos</h5>
+            <h5 class="card-title" id="titulos">TRATAMIENTOS</h5>
             <p class="card-text parrafo3">Belleza integral - Aparatologia y productos naturales para la piel. Skincare - Cuidado estético.</p>
-          </div>
+          </div></a>
         </div>
       </div>
       <div class="col">
-        <div class="card text-white bg-dark mb-4 card4">
-          <img src="img/azulmaquillaje.jpg" class="card-img-top" alt="...">
+        <a href="pages/makeup.html">
+        <div class="card text-white bg-dark mb-3 card4">
+          <img src="img/makeup.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title titulos">Make up</h5>
+            <h5 class="card-title" id="titulos">MAKE UP</h5>
             <p class="card-text parrafo4">Maquillaje social y artistico - Para eventos: 15 años, casamientos, fiestas infantiles - Cursos y capacitaciones.</p>
-          </div>
+          </div></a>
         </div>
       </div>
     </div>
     <!-- FIN GRID CARDS -->
 
-    <footer class="container-fluid footer">
+    <footer class="container-fluid footer" >
           <div class="row">
           <div class="col-12 col-lg-3 col-md-3 col-sm-2">
             <a href="https://wa.me/5491161398784" target="_blank"><img id="iconoCel" src="img/whatsapp.png" alt="" ></a>  
@@ -165,7 +168,7 @@
   
 
     
-<script src="index.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

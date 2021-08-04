@@ -1,16 +1,20 @@
-
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
 
 @import "tipografia.scss";
 @import "carousel.scss";
 
 
+.letrasContacto{
+    color: white
+}
 
  .fondo{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../img/fondomadera.jpg);
+    background: linear-gradient(45deg, hsla(0, 0%, 8%, 1) 0%, hsla(319, 72%, 8%, 1) 15%, hsla(336, 33%, 76%, 1) 100%);
     width: 100%;
     height: 100%;
-    /*  background-repeat: no-repeat; */
-    /* background-size: cover; */
+ 
 
     #menu{
         background-color: $colorFondo;
@@ -24,29 +28,31 @@
             padding: 20px;
                
         }
+        #textoNav:hover{
+            color: white;
+            text-shadow: white 1px 2px 15px;
+        }
 
    }
-
-   #tituloPrincipal{
-    color: $colorTitulo;
-    text-align: center;
-    font-size: $tamanioTitulos;
-    font-family: $fontTitulo; 
-    text-shadow: $sombraTitulos;   
-}
 
 
  .parrafos{
      font-family: $fontPrincipal;
-
  }
 
 
- .titulos{
-    @extend #tituloPrincipal;
-     font-weight: 900;
+ #titulos{
      text-align: left;
+     color: $colorGeneral;
+     text-shadow: $sombraTitulos;
+     font-family: 'Nanum Gothic';
+     font-size: $tamanioTitulos
        
+ }
+
+ #card2{
+     width: auto;
+     height: auto;
  }
 
 
@@ -68,16 +74,16 @@
 }
 
 .parrafo1{
-    @include parrafos (white, 'Chilanka', 0 ,20px)
+    @include parrafos (white, 'Nanum Gothic', 0 ,20px)
 }
 .parrafo2{
-    @include parrafos (white, 'Chilanka', 0 , 20px)
+    @include parrafos (white, 'Nanum Gothic', 0 , 20px)
 }
 .parrafo3{
-    @include parrafos (white, 'Chilanka', 0, 20px)
+    @include parrafos (white, 'Nanum Gothic', 0, 20px)
 }
 .parrafo4{
-    @include parrafos  (white, 'Chilanka', 0 , 20px)
+    @include parrafos  (white, 'Nanum Gothic', 0 , 20px)
 }
 
 

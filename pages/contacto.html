@@ -20,7 +20,7 @@
   <header>
     <div class="container-fluid banner">
        
-    <img src="../img/imagenPorada2.jpg" alt="" width="100%" height= >
+    <img src="../img/portadasinfondo.png" alt="" width="100%" height= >
        
     </div>
     <!-- NAV -->
@@ -65,48 +65,45 @@
   <main>
     <!-- FORM -->
     <form class="row g-3 m-3">
-      <div class="col-md-4">
-        <label for="validationDefault01" class="form-label" id="textoNav">NOMBRE</label>
+      <div class="col-md-5 mb-md-5" >
+        <label for="validationDefault01" class="form-label letrasContacto">NOMBRE</label>
         <input type="text" class="form-control" id="validationDefault01" placeholder="Maria" required>
       </div>
-      <div class="col-md-4">
-        <label for="validationDefault02" class="form-label" id="textoNav">APELLIDO</label>
+      <div class="col-md-5">
+        <label for="validationDefault02" class="form-label letrasContacto">APELLIDO</label>
         <input type="text" class="form-control" id="validationDefault02" placeholder="Gonzalez" required>
       </div>
-      <div class="col-md-4">
-        <label for="validationDefaultUsername" class="form-label" id="textoNav">MAIL</label>
+      <div class="col-md-4 mb-2">
+        <label for="validationDefaultUsername" class="form-label letrasContacto">MAIL</label>
         <div class="input-group">
           <!-- <span class="input-group-text" id="inputGroupPrepend2"></span> -->
           <input type="email" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
         </div>
       </div>
-      <div class="col-md-6">
-        <label for="validationDefault03" class="form-label" id="textoNav">Telefono de contacto</label>
+      <div class="col-md-3">
+        <label for="validationDefault03" class="form-label letrasContacto">Telefono de contacto</label>
         <input type="number" class="form-control" id="validationDefault03" placeholder="11-6555-5555" required>
       </div>
-      <div class="col-md-2">
-        <label for="validationDefault04" class="form-label" id="textoNav">Tipo</label>
+      <div class="col-md-2 mb-5" >
+        <label for="validationDefault04" class="form-label letrasContacto">Tipo</label>
         <select class="form-select" id="validationDefault04" required>
           <option selected disabled value="">Elegir una opcion</option>
           <option>CEL</option>
           <option>TEL FIJO</option>
         </select>
       </div>
-      <div class="input-group">
+      <div class="input-group mt-5" >
         <span class="input-group-text">Consulta</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <textarea class="form-control" rows="8" aria-label="With textarea"></textarea>
       </div>
       <div class="col-6">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-          <label class="form-check-label" for="invalidCheck2">
-            de acuerdo con las condiciones
-          </label>
+          <label class="form-check-label letrasContacto" for="invalidCheck2">de acuerdo con las condiciones</label>
         </div>
       </div>
       <div class="col-12">
         <button class="btn btn-primary" type="submit">Enviar formulario</button>
-
         
       </div>
     </form>

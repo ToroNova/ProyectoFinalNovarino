@@ -1,3 +1,6 @@
+a:link, a:visited, a:active {
+  text-decoration: none; }
+
 .borderCarousel {
   border: 8px solid #cc32da;
   border-radius: 7px; }
@@ -17,55 +20,59 @@
 .fotoCarousel {
   margin: 0 auto; }
 
+.letrasContacto {
+  color: white; }
+
 .fondo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/fondomadera.jpg);
+  background: linear-gradient(45deg, #141414 0%, #23061a 15%, #d6aebe 100%);
   width: 100%;
-  height: 100%;
-  /*  background-repeat: no-repeat; */
-  /* background-size: cover; */ }
+  height: 100%; }
   .fondo #menu {
-    background-color: #e7b6be;
+    background-color: #312f2f;
     font-size: 35px;
     font-weight: 500; }
     .fondo #menu #textoNav {
-      color: black;
+      color: #b395b1;
       font-size: 30px;
       padding: 20px; }
-  .fondo #tituloPrincipal, .fondo .titulos {
-    color: #dab9ce;
-    text-align: center;
-    font-size: 50px;
-    font-family: "Crafty Girls", cursive;
-    text-shadow: 6px 4px 1px #0A0403; }
+    .fondo #menu #textoNav:hover {
+      color: white;
+      text-shadow: white 1px 2px 15px; }
   .fondo .parrafos {
-    font-family: "Chilanka", cursive; }
-  .fondo .titulos {
-    font-weight: 900;
-    text-align: left; }
+    font-family: "Nanum Gothic"; }
+  .fondo #titulos {
+    text-align: left;
+    color: #b395b1;
+    text-shadow: 6px 4px 1px #0A0403;
+    font-family: 'Nanum Gothic';
+    font-size: 40px; }
+  .fondo #card2 {
+    width: auto;
+    height: auto; }
   .fondo .footer {
-    background-color: #e7b6be; }
+    background-color: #312f2f; }
 
 .parrafo1 {
   color: white;
-  font-family: "Chilanka";
+  font-family: "Nanum Gothic";
   background-color: 0;
   font-size: 20px; }
 
 .parrafo2 {
   color: white;
-  font-family: "Chilanka";
+  font-family: "Nanum Gothic";
   background-color: 0;
   font-size: 20px; }
 
 .parrafo3 {
   color: white;
-  font-family: "Chilanka";
+  font-family: "Nanum Gothic";
   background-color: 0;
   font-size: 20px; }
 
 .parrafo4 {
   color: white;
-  font-family: "Chilanka";
+  font-family: "Nanum Gothic";
   background-color: 0;
   font-size: 20px; }
 
@@ -79,7 +86,7 @@
     align-items: center;
     justify-content: center;
     justify-items: center; }
-  .fondo #tituloPrincipal, .fondo .titulos {
+  .fondo #tituloPrincipal {
     font-size: 25px; }
   .fondo #menu #textoNav {
     font-size: 15px;
@@ -89,7 +96,7 @@
   #iconoCel {
     height: 40px;
     width: 40px; }
-  .fondo #tituloPrincipal, .fondo .titulos {
+  .fondo #tituloPrincipal {
     font-size: 35px; }
   .fondo #menu #textoNav {
     font-size: 20px;
@@ -99,12 +106,12 @@
   #iconoCel {
     height: 50px;
     width: 50px; }
-  .fondo #tituloPrincipal, .fondo .titulos {
+  .fondo #tituloPrincipal {
     font-size: 45px; } }
 
 @media only screen and (min-width: 992px) {
   #iconoCel {
     height: 50px;
     width: 50px; }
-  .fondo #tituloPrincipal, .fondo .titulos {
+  .fondo #tituloPrincipal {
     font-size: 60px; } }
