@@ -32,49 +32,56 @@ a:link, a:visited, a:active {
     font-size: 35px;
     font-weight: 500; }
     .fondo #menu #textoNav {
-      color: #b395b1;
+      color: #cfbacd;
       font-size: 30px;
       padding: 20px; }
     .fondo #menu #textoNav:hover {
       color: white;
       text-shadow: white 1px 2px 15px; }
-  .fondo .parrafos {
-    font-family: "Nanum Gothic"; }
+  .fondo #parrafos {
+    font-family: "Nanum Gothic";
+    color: white;
+    font-size: 20px; }
   .fondo #titulos {
     text-align: left;
-    color: #b395b1;
+    color: #cfbacd;
     text-shadow: 6px 4px 1px #0A0403;
     font-family: 'Nanum Gothic';
-    font-size: 40px; }
-  .fondo #card2 {
-    width: auto;
-    height: auto; }
-  .fondo .footer {
-    background-color: #312f2f; }
+    font-size: 35px; }
+  .fondo #face {
+    background-color: #3D5B94;
+    font-size: 1.2em;
+    width: 20%; }
 
-.parrafo1 {
-  color: white;
-  font-family: "Nanum Gothic";
-  background-color: 0;
-  font-size: 20px; }
+.footer {
+  background-color: #312f2f; }
 
-.parrafo2 {
-  color: white;
+.containerError .error404 {
+  text-align: center;
   font-family: "Nanum Gothic";
-  background-color: 0;
-  font-size: 20px; }
+  color: black;
+  font-size: 1.5em; }
 
-.parrafo3 {
-  color: white;
+.containerError .errorParrafo {
+  text-align: center;
+  font-size: 0.8em;
   font-family: "Nanum Gothic";
-  background-color: 0;
-  font-size: 20px; }
+  margin-top: 30px;
+  font-weight: 600; }
 
-.parrafo4 {
-  color: white;
+.containerError .botonErrorRegreso {
+  text-align: center;
   font-family: "Nanum Gothic";
-  background-color: 0;
-  font-size: 20px; }
+  margin-top: 50px; }
+  .containerError .botonErrorRegreso a {
+    color: white;
+    font-size: 0.8em;
+    background-color: #005aa3;
+    border-radius: 5px;
+    padding: 9px;
+    text-decoration: none; }
+  .containerError .botonErrorRegreso a:hover {
+    background-color: #252399; }
 
 @media only screen and (max-width: 576px) {
   #marginCel {
@@ -90,7 +97,11 @@ a:link, a:visited, a:active {
     font-size: 25px; }
   .fondo #menu #textoNav {
     font-size: 15px;
-    padding: 5px; } }
+    padding: 5px; }
+  .fondo #titulos {
+    font-size: 25px; }
+  .fondo #parrafos {
+    font-size: 17px; } }
 
 @media only screen and (min-width: 576px) {
   #iconoCel {

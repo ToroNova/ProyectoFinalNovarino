@@ -10,11 +10,14 @@ a:link, a:visited, a:active {
     color: white
 }
 
- .fondo{
+
+
+.fondo{
     background: linear-gradient(45deg, hsla(0, 0%, 8%, 1) 0%, hsla(319, 72%, 8%, 1) 15%, hsla(336, 33%, 76%, 1) 100%);
     width: 100%;
     height: 100%;
- 
+    
+    
 
     #menu{
         background-color: $colorFondo;
@@ -36,8 +39,10 @@ a:link, a:visited, a:active {
    }
 
 
- .parrafos{
+ #parrafos{
      font-family: $fontPrincipal;
+     color: white;
+     font-size: 20px;
  }
 
 
@@ -50,48 +55,66 @@ a:link, a:visited, a:active {
        
  }
 
- #card2{
-     width: auto;
-     height: auto;
- }
 
 
- .footer{
-
-    background-color: $colorFondo;
-   
-}
+  #face {
+    background-color: #3D5B94;
+    font-size: 1.2em;
+    width: 20%;
+  }
         
 }
 
-@mixin parrafos ($color, $typo, $fondo, $tamanio){
-
- color: $color;
- font-family: $typo;
- background-color: $fondo;
- font-size: $tamanio;
-
-}
-
-.parrafo1{
-    @include parrafos (white, 'Nanum Gothic', 0 ,20px)
-}
-.parrafo2{
-    @include parrafos (white, 'Nanum Gothic', 0 , 20px)
-}
-.parrafo3{
-    @include parrafos (white, 'Nanum Gothic', 0, 20px)
-}
-.parrafo4{
-    @include parrafos  (white, 'Nanum Gothic', 0 , 20px)
+ .footer {
+    background-color: #312f2f;   
 }
 
 
+.containerError{
+    
+     .error404{
+        text-align: center;
+        font-family: $fontPrincipal;
+        color:black;
+        font-size: 1.5em;
+        
+     }
+     
+     .errorParrafo{
+         text-align: center;
+         font-size: 0.8em;
+         font-family: $fontPrincipal;
+         margin-top: 30px;
+         font-weight: 600;
+     }
+    
+     .botonErrorRegreso{
+         text-align: center;
+         font-family: $fontPrincipal;
+         margin-top: 50px;
+         
+
+         a{
+             color: white;
+             font-size: 0.8em;
+             background-color: #005aa3;
+             border-radius: 5px;
+             padding: 9px;
+             text-decoration: none;
+         }
+
+         a:hover{
+             background-color: #252399;
+         }
+         
+     }
+ }
 
 
 
   @media only screen and (max-width:576px){
 
+ 
     #marginCel{
         margin-top: 20px;
     }
@@ -118,9 +141,19 @@ a:link, a:visited, a:active {
             font-size: 15px;
             padding: 5px;
         }
-    }  
+    }
+    
+    #titulos{
+        font-size: 25px;
+      }
+    #parrafos{
+        font-size: 17px ;
+    }
+    
+    
    }
-       
+   
+         
   
   }
   
@@ -159,11 +192,11 @@ a:link, a:visited, a:active {
             #tituloPrincipal{
                 font-size: 45px;
             }   
-           }
-      
-   
+           }   
+             
            
     }
+    
   
   
   @media only screen and (min-width:992px){
